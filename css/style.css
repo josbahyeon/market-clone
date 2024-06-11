@@ -20,11 +20,11 @@ body {
   justify-content: center;
   align-items: center;
   background-color: salmon;
-  opacity: 0;
+  opacity: 1;
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (max-width: 550px) {
   .media-info-msg {
-    opacity: 1;
+    display: none;
   }
 }
